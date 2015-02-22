@@ -1,5 +1,5 @@
 ---
-title: "README.Rmd"
+title: "README.md"
 author: "Richard Scranton"
 date: "02/21/2015"
 ---
@@ -24,4 +24,4 @@ After being grouped by test subject (major) and activity (minor) order, observat
 
 The completed extract was written to disk for distribution, and any remaining memory-resident work objects were released.  The scripted processing can be repeated by bursting the .ZIP archive on disk, allowing it to create nested directories as required.  Then place the R script "run_analysis.R" in the top directory of the .ZIP hierarchy.  Execute the R script to create the extract file, **X_mean_std_avg.txt.**
 
-`$Id: README.Rmd,v 1.1 2015/02/22 06:09:58 richard Exp richard $`
+`$Id: README.md,v 1.1 2015/02/22 06:09:58 richard Exp richard $`

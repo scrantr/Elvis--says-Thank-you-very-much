@@ -10,7 +10,7 @@ Description of Tidy Data Set
 
 Each raw measurement is taken from the embedded accelerometers and gyroscopes of Samsung "smart phones." With a constant measurement period of 50 milliseconds standardized around "g", the gravitational constant, and constrained to +/- 1, the measurement domain for all 66 measurements can be said to encompass approximately 1/10th of a Newton.  More specifics of the measurement regime can be read in the data set description accompanying the raw data at:
 
-[https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAj Dataset.zip]
+[https://d396qusza40orc.cloudfront.net/getdata%2fprojectfiles%2fUCI%20HAR%20Dataset.zip]
 
 Rationalized Data Naming
 ------------------------
