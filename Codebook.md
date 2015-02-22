@@ -2,7 +2,6 @@
 title: "Code book for Week 3 Project"
 author: "Richard Scranton"
 date: "02/20/2015"
-output: html_document
 ---
 
 
@@ -112,10 +111,6 @@ Test and Training identity markers for the subjects was then merged, taking care
 Mean() and Std-dev() observations were excerpted from the whole and written to another work object.  Original obscure column descriptions were augmented using hints included with the raw data to make them more intuitively descriptive.  Activity ordinals were replaced with textual descriptions, also using information included with the source data.
 
 The completed extract was written to disk for distribution, and any remaining memory-resident work objects were released.  The scripted processing can be repeated by bursting the .ZIP archive on disk, allowing it to create nested directories as required.  Then place the R script "run_analysis.R" in the top directory of the .ZIP hierarchy.  Execute the R script to create the extract file, **X_mean_std_avg.txt.**
-
-```{r}
-str(X_mean_std_avg)
-```
 
 *Original data compiled and kindly donated by Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
 
